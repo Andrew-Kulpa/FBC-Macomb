@@ -7,7 +7,8 @@
   <link rel="icon" href="img/icon.png"/>
   <link rel="shortcut icon" href="img/icon.png"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <style>
@@ -69,7 +70,7 @@
         margin: 4% auto;
     }
     @media (max-width: 900px) {
-        .fa {
+        .fab {
             font-size: 20px;
             padding: 10px;
         }
@@ -95,13 +96,13 @@
         padding: 3%;
         color: #AAABB8;
     }
-    .fa {
-        padding: 20px;
-        font-size: 30px;
-        color: #AAABB8;
+    .social {
+        /* padding: 20px;
+        font-size: 30px; */
+        color: #AAABB8 !important;
     }
-    .fa:hover {
-        color: #2E9CCA;
+    .social:hover {
+        color: #2E9CCA !important;
         text-decoration: none;
     }
     .icon {
@@ -124,7 +125,7 @@
                         <!-- https://designer.gravit.io/ -->
                         <!-- https://www.codeply.com -->
                     <object data="img/trial6.svg" type="image/svg+xml" style="height: 100%; object-fit: contain;">
-                        <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-01/campaign_images/webdr06/7/14/50-reasons-why-nicolas-cage-is-the-greatest-human-1-5571-1389124720-1_big.jpg" />
+                        <!-- <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-01/campaign_images/webdr06/7/14/50-reasons-why-nicolas-cage-is-the-greatest-human-1-5571-1389124720-1_big.jpg" /> -->
                     </object>
                 </a>
                 
@@ -132,17 +133,32 @@
             <div class="collapse navbar-collapse" id="MyNavbar">
                 <ul class="nav navbar-nav navbar-right">
                     <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">Media</a></li>
-                    <li><a href="#">?????</a></li>
+                    <!-- <li><a href="#">Media</a></li> -->
+                    <!-- <li><a href="#">?????</a></li> -->
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
                         <ul class="dropdown-menu">
-                            <li><a href="#">Action</a></li>
-                            <li><a href="#">Another action</a></li>
-                            <li><a href="#">Something else here</a></li>
-                            <li class="divider"></li>
-                            <li><a href="#">Separated link</a></li>
-                            <li><a href="#">One more separated link</a></li>
+                            <li><a href="#">Our Ministries</a></li>
+                            <li><a href="#">What We Believe</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">Affiliations</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Podcasts</a></li>
+                            <li><a href="#">Photo Album</a></li>
+                            <li><a href="#">Newsletter</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">????<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Upcoming Events</a></li>
+                            <li><a href="#">Calendar</a></li> <!-- (a bit redundant ^) -->
+                            <li><a href="#">Words from Pastor</a></li>
+                            <li><a href="#">Worship</a></li> <!-- (only shows pic and times of meetings) -->
                         </ul>
                     </li>
                 </ul>
@@ -159,7 +175,7 @@
             <div class="item active">
                 <img src="https://i1.wp.com/wallpaperearth.com/wp-content/uploads/2018/01/forest-wallpaper-dark-fresh-dark-forest-wallpapers-natures-wallpapers-of-forest-wallpaper-dark.jpg?w=1366">
                 <div class="carousel-caption">
-                    <h1>The Cage God</h1>
+                    <h1>Join Today</h1>
                     <br>
                     <button type="button" class="btn btn-default">Start Now</button>
                 </div>
@@ -182,102 +198,143 @@
     </div>
     
     <div class="container text-center">
-        <h2> What We're Using</h2>
+        <h2>What We Guarentee</h2>
         <div class="row">
             <div class="col-sm-4">
-                <img src="https://lh5.ggpht.com/oF0NSgJ52QiFS2I4_cIQhAnwh3TchkPTp5lJ4RFX0Wl3G44lbViXCAthdRCZAsGX9g=w300" id="icon">
-                <h4>CAGE</h4>
+                <i class="fab fa-accessible-icon fa-10x"></i>
+                <h4>Accessibility</h4>
             </div>
             <div class="col-sm-4">
-                <img src="https://lh5.ggpht.com/oF0NSgJ52QiFS2I4_cIQhAnwh3TchkPTp5lJ4RFX0Wl3G44lbViXCAthdRCZAsGX9g=w300" id="icon">
-                <h4>CAGE</h4>
+                <i class="fas fa-calendar-check fa-10x"></i>
+                <h4>Weekly Meetings</h4>
             </div>
             <div class="col-sm-4">
-                <img src="https://lh5.ggpht.com/oF0NSgJ52QiFS2I4_cIQhAnwh3TchkPTp5lJ4RFX0Wl3G44lbViXCAthdRCZAsGX9g=w300" id="icon">
-                <h4>CAGE</h4>
+                <i class="fas fa-comments fa-10x"></i>
+                <h4>Deep Discussions</h4>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-md-6">
-                <h4>You Don't Say?</h4>
-                <p>“You Don’t Say?” is a rage comic face based on a contour drawing 
-                    of Nicolas Cage that is that is used as a sarcastic response to an 
-                    obvious observation or statement, in similar vein to “O RLY” image 
-                    macros.
+                <h4>Nullam blandit metus</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus 
+                    et ex lobortis, porta nunc ac, congue nunc. In hac habitasse platea 
+                    dictumst. Nullam blandit metus vel dolor porttitor molestie. Duis 
+                    vehicula sagittis metus ac tristique.
                 </p>
                 <p>
-                    The phrase “you don’t say” is an idiomatic expression 
-                    used to convey surprise or astonishment but it can be also used 
+                    Suspendisse faucibus accumsan mi, id congue metus 
+                    convallis ultricies. Suspendisse potenti. Cras nibh libero, 
+                    porttitor in arcu eget, gravida maximus justo. 
                 </p>
             </div>
             <div class="col-md-6">
-                <img src="http://i0.kym-cdn.com/photos/images/newsfeed/000/264/615/242.png" class="img-responsive">
+                <!-- <img src="http://i0.kym-cdn.com/photos/images/newsfeed/000/264/615/242.png" class="img-responsive"> -->
+                <!-- <i class="fas fa-hand-spock fa-10x"></i> -->
+                <img src="http://www.fbcmacomb.com/Worship/IMG_5853%20copy.jpg" class="img-responsive"> 
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row">
             <div class="col-lg-3 col-md-3 col-sm-6">
-                <h4>Built with CAGE</h4>
+                <h4>Nullam blandit metus</h4>
                 <p>
-                    The First Baptist Church of Macomb needs help in updating their website to a more modern responsive
-                    website that is mobile friendly. The current website (http://www.fbcmacomb.com/) was designed over
-                    10 years ago.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus 
+                    et ex lobortis, porta nunc ac, congue nunc. In hac habitasse platea 
+                    dictumst. Nullam blandit metus vel dolor porttitor molestie. Duis 
+                    vehicula sagittis metus ac tristique.
                 </p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6">
-                <img src="http://i0.kym-cdn.com/photos/images/newsfeed/000/264/615/242.png" class="img-responsive">
+                <!-- <img src="http://www.fbcmacomb.com/Worship/IMG_5853%20copy.jpg" class="img-responsive"> -->
+                <i class="fas fa-globe fa-10x"></i>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6">
-                <h4>Built with CAGE</h4>
+                <h4>Nullam blandit metus</h4>
                 <p>
-                    The First Baptist Church of Macomb needs help in updating their website to a more modern responsive
-                    website that is mobile friendly. The current website (http://www.fbcmacomb.com/) was designed over
-                    10 years ago.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus 
+                    et ex lobortis, porta nunc ac, congue nunc. In hac habitasse platea 
+                    dictumst. Nullam blandit metus vel dolor porttitor molestie. Duis 
+                    vehicula sagittis metus ac tristique.
                 </p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6">
-                <img src="http://i0.kym-cdn.com/photos/images/newsfeed/000/264/615/242.png" class="img-responsive">
+                <!-- <img src="http://i0.kym-cdn.com/photos/images/newsfeed/000/264/615/242.png" class="img-responsive"> -->
+                <i class="fas fa-music fa-10x"></i>
             </div>
         </div>
     </div>
-    <div class="container">
+    <!-- <div class="container">
         <div class="row">
-            <h4><a href="#hidden" data-toggle="collapse">You Don't Say?</a></h4>
+            <h4><a href="#hidden" data-toggle="collapse">Lorem ipsum dolor</a></h4>
             <div id="hidden" class="collapse">
-                <h4>Built with CAGE</h4>
-                <p>“You Don’t Say?” is a rage comic face based on a contour drawing 
-                    of Nicolas Cage that is that is used as a sarcastic response to an 
-                    obvious observation or statement, in similar vein to “O RLY” image 
-                    macros.
+                <h4>Lorem ipsum dolor</h4>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus 
+                    et ex lobortis, porta nunc ac, congue nunc. In hac habitasse platea 
+                    dictumst. Nullam blandit metus vel dolor porttitor molestie. Duis 
+                    vehicula sagittis metus ac tristique. Nunc ac viverra sem, sed 
+                    euismod risus. In sed odio dictum, aliquet dui non, convallis 
+                    tortor. Suspendisse faucibus accumsan mi, id congue metus 
+                    convallis ultricies. Suspendisse potenti. Cras nibh libero, 
+                    porttitor in arcu eget, gravida maximus justo.
                 </p>
                 <p>
-                    The phrase “you don’t say” is an idiomatic expression 
-                    used to convey surprise or astonishment but it can be also used 
+                    Fusce rutrum viverra tellus, ac placerat mi vestibulum vestibulum. 
+                    Morbi bibendum sollicitudin odio, at cursus ligula sodales vitae. In 
+                    vitae justo pulvinar, hendrerit risus egestas, egestas enim. Lorem 
+                    ipsum dolor sit amet, consectetur adipiscing elit. Nunc eget libero 
+                    quis diam ullamcorper venenatis.
                 </p>
             </div>
         </div>
-    </div>
+    </div> -->
     <footer class="container-fluid text-center">
         <div class="row">
             <div class="col-sm-4">
-                <h3>Contact Us</h3>
-                <br>
-                <h4> Address & Contact Info HERE</h4>
+                    <h3>Contact Us</h3>
+                    <br>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <i class="fas fa-map-marker fa-lg"></i><br>
+                            <h5>
+                                First Baptist Church<br>
+                                1515 S. Candy Lane<br>
+                                Macomb, Illinois 61455
+                            </h5>
+                        </div>
+                        <div class="col-sm-4">
+                            <i class="fas fa-phone fa-lg"></i>
+                            <h5>
+                                309-833-2479
+                            </h5>
+                        </div>
+                        <div class="col-sm-4">
+                            <i class="far fa-envelope fa-lg"></i>
+                            <h5>
+                                info@fbcmacomb.com
+                            </h5>
+                        </div>
+                    </div>
             </div>
             <div class="col-sm-4">
                 <h3>Connect</h3>
-                <a href="#" class="fa fa-facebook"></a>
-                <a href="#" class="fa fa-twitter"></a>
-                <a href="#" class="fa fa-google"></a>
-                <a href="#" class="fa fa-linkedin"></a>
-                <a href="#" class="fa fa-youtube"></a>
+                <br>
+                <a href="#"><i class="fab fa-facebook fa-3x social"></i></a>
+                <a href="#"><i class="fab fa-twitter fa-3x social"></i></a>
+                <a href="#"><i class="fab fa-google fa-3x social"></i></a>
+                <a href="#"><i class="fab fa-linkedin fa-3x social"></i></a>
+                <a href="#"><i class="fab fa-youtube fa-3x social"></i></a>
+                <br>
+                <br>
+                <br>
             </div>
             <div class="col-sm-4">
                 <object class="icon" data="img/icon2.svg" type="image/svg+xml" style="height: 100%; object-fit: contain;">
-                    <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-01/campaign_images/webdr06/7/14/50-reasons-why-nicolas-cage-is-the-greatest-human-1-5571-1389124720-1_big.jpg" />
+                    <!-- <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-01/campaign_images/webdr06/7/14/50-reasons-why-nicolas-cage-is-the-greatest-human-1-5571-1389124720-1_big.jpg" /> -->
                 </object>
             </div>
         </div>
@@ -285,21 +342,7 @@
 </body>
 </html>
 
-<!-- Home
-About Us:
-    Our Ministries
-    What We Believe
-    Contact Us
-    Affiliations (Links)
-Media:
-    Podcasts
-    Photo Album
-    Newsletter
-???:
-    Upcoming Events
-    Calendar (a bit redundant ^)
-    Words from Pastor
-    Worship (only shows pic and times of meetings) -->
+
 
 
 
