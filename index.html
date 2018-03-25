@@ -1,170 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>First Baptist Church Macomb - Home</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" href="img/icon.png"/>
-  <link rel="shortcut icon" href="img/icon.png"/>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
-  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  <style>
-    .navbar {
-        margin-bottom: 0;
-        border-radius: 0.125;
-        background-color: #25274D;
-        color: #AAABB8;
-        padding: 0.5% 0;
-        font-size: 1.2em;
-        z-index:1;
-    }
-    .navbar-brand {
-        float: left;
-        min-height: 55px;
-        height: 55px;
-        width: 80%;
-        padding: 0px 15px 0px 0px;
-    }
 
-    .navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
-    .navbar-inverse .navbar-nav .active a:hover{
-        color: #2E9CCA;
-        background-color: #25274D;
-    }
-    .carousel{
-        z-index: 0;
-        /* height: 66vh; */
-        /* object-fit: cover; */
-    }
-    .carousel-inner {
-        width: 100%;
-        min-height: 25% !important;
-        height: 25% !important;
-    }
-    .navbar-inverse .navbar-nav li a {
-        color: #AAABB8;
-    }
-    .navbar-inverse .navbar-nav li a:hover {
-        color: #2E9CCA;
-    }
-    .carousel-caption {
-        top: 50%;
-        transform: translateY(-50%);
-        text-transform: capitalize;
-    }
-    .carousel .item {
-        height: 400px;
-        background-color:#555;
-    }
-    .carousel img { width: 100%;  min-height: 400px;}
-    .btn {
-        font-size: 18px;
-        color: #AAABB8;
-        padding: 12px 22px;
-        background: #25274D;
-    }
-    .container {
-        margin: 4% auto;
-    }
-    @media (max-width: 900px) {
-        .fab {
-            font-size: 20px;
-            padding: 10px;
-        }
-    }
-    @media (max-width: 600px) {
-        .carousel-caption {
-            display: none;
-        }
-        #icon {
-            max-width: 150px;
-        }
-        h2 {
-            font-size: 1.9em;
-        }
-    }
-    #icon {
-        max-width: 200px;
-        margin: 1% auto;
-    }
-    footer {
-        width: 100%;
-        background-color: #25274D;
-        padding: 3%;
-        color: #AAABB8;
-    }
-    .social {
-        /* padding: 20px;
-        font-size: 30px; */
-        color: #AAABB8 !important;
-    }
-    .social:hover {
-        color: #2E9CCA !important;
-        text-decoration: none;
-    }
-    .icon {
-        width:33%;
-        min-height: 25% !important;
-        height: 25% !important;
-    }
-  </style>
+<head>
+    <title>First Baptist Church Macomb - Home</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="img/favicon.png" />
+    <link rel="shortcut icon" href="img/favicon.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ"
+        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+    
 </head>
+
 <body>
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#MyNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html"> 
-                        <!-- https://designer.gravit.io/ -->
-                        <!-- https://www.codeply.com -->
-                    <object data="img/trial6.svg" type="image/svg+xml" style="height: 100%; object-fit: contain;">
-                        <!-- <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-01/campaign_images/webdr06/7/14/50-reasons-why-nicolas-cage-is-the-greatest-human-1-5571-1389124720-1_big.jpg" /> -->
-                    </object>
-                </a>
-                
-            </div>
-            <div class="collapse navbar-collapse" id="MyNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <!-- <li><a href="#">Media</a></li> -->
-                    <!-- <li><a href="#">?????</a></li> -->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Our Ministries</a></li>
-                            <li><a href="#">What We Believe</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">Affiliations</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Media<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Podcasts</a></li>
-                            <li><a href="#">Photo Album</a></li>
-                            <li><a href="#">Newsletter</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">????<b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Upcoming Events</a></li>
-                            <li><a href="#">Calendar</a></li> <!-- (a bit redundant ^) -->
-                            <li><a href="#">Words from Pastor</a></li>
-                            <li><a href="#">Worship</a></li> <!-- (only shows pic and times of meetings) -->
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <div id="header"> </div>
     <div id="carousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             <li data-target="#carousel" data-slide-to="0" class="active"></li>
@@ -188,15 +43,15 @@
             </div>
         </div>
         <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"/>
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true" />
             <span class="sr-only">Previous</span>
         </a>
         <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"/>
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true" />
             <span class="sr-only">Next</span>
         </a>
     </div>
-    
+
     <div class="container text-center">
         <h2>What We Guarentee</h2>
         <div class="row">
@@ -219,21 +74,18 @@
             <div class="col-md-6">
                 <h4>Nullam blandit metus</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus 
-                    et ex lobortis, porta nunc ac, congue nunc. In hac habitasse platea 
-                    dictumst. Nullam blandit metus vel dolor porttitor molestie. Duis 
-                    vehicula sagittis metus ac tristique.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et ex lobortis, porta nunc ac, congue nunc. In hac habitasse
+                    platea dictumst. Nullam blandit metus vel dolor porttitor molestie. Duis vehicula sagittis metus ac tristique.
                 </p>
                 <p>
-                    Suspendisse faucibus accumsan mi, id congue metus 
-                    convallis ultricies. Suspendisse potenti. Cras nibh libero, 
-                    porttitor in arcu eget, gravida maximus justo. 
+                    Suspendisse faucibus accumsan mi, id congue metus convallis ultricies. Suspendisse potenti. Cras nibh libero, porttitor in
+                    arcu eget, gravida maximus justo.
                 </p>
             </div>
             <div class="col-md-6">
                 <!-- <img src="http://i0.kym-cdn.com/photos/images/newsfeed/000/264/615/242.png" class="img-responsive"> -->
                 <!-- <i class="fas fa-hand-spock fa-10x"></i> -->
-                <img src="http://www.fbcmacomb.com/Worship/IMG_5853%20copy.jpg" class="img-responsive"> 
+                <img src="http://www.fbcmacomb.com/Worship/IMG_5853%20copy.jpg" class="img-responsive">
             </div>
         </div>
     </div>
@@ -242,10 +94,8 @@
             <div class="col-lg-3 col-md-3 col-sm-6">
                 <h4>Nullam blandit metus</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus 
-                    et ex lobortis, porta nunc ac, congue nunc. In hac habitasse platea 
-                    dictumst. Nullam blandit metus vel dolor porttitor molestie. Duis 
-                    vehicula sagittis metus ac tristique.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et ex lobortis, porta nunc ac, congue nunc. In hac habitasse
+                    platea dictumst. Nullam blandit metus vel dolor porttitor molestie. Duis vehicula sagittis metus ac tristique.
                 </p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6">
@@ -255,10 +105,8 @@
             <div class="col-lg-3 col-md-3 col-sm-6">
                 <h4>Nullam blandit metus</h4>
                 <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus 
-                    et ex lobortis, porta nunc ac, congue nunc. In hac habitasse platea 
-                    dictumst. Nullam blandit metus vel dolor porttitor molestie. Duis 
-                    vehicula sagittis metus ac tristique.
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus et ex lobortis, porta nunc ac, congue nunc. In hac habitasse
+                    platea dictumst. Nullam blandit metus vel dolor porttitor molestie. Duis vehicula sagittis metus ac tristique.
                 </p>
             </div>
             <div class="col-lg-3 col-md-3 col-sm-6">
@@ -292,59 +140,14 @@
             </div>
         </div>
     </div> -->
-    <footer class="container-fluid text-center">
-        <div class="row">
-            <div class="col-sm-4">
-                    <h3>Contact Us</h3>
-                    <br>
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <i class="fas fa-map-marker fa-lg"></i><br>
-                            <h5>
-                                First Baptist Church<br>
-                                1515 S. Candy Lane<br>
-                                Macomb, Illinois 61455
-                            </h5>
-                        </div>
-                        <div class="col-sm-4">
-                            <i class="fas fa-phone fa-lg"></i>
-                            <h5>
-                                309-833-2479
-                            </h5>
-                        </div>
-                        <div class="col-sm-4">
-                            <i class="far fa-envelope fa-lg"></i>
-                            <h5>
-                                info@fbcmacomb.com
-                            </h5>
-                        </div>
-                    </div>
-            </div>
-            <div class="col-sm-4">
-                <h3>Connect</h3>
-                <br>
-                <a href="#"><i class="fab fa-facebook fa-3x social"></i></a>
-                <a href="#"><i class="fab fa-twitter fa-3x social"></i></a>
-                <a href="#"><i class="fab fa-google fa-3x social"></i></a>
-                <a href="#"><i class="fab fa-linkedin fa-3x social"></i></a>
-                <a href="#"><i class="fab fa-youtube fa-3x social"></i></a>
-                <br>
-                <br>
-                <br>
-            </div>
-            <div class="col-sm-4">
-                <object class="icon" data="img/icon2.svg" type="image/svg+xml" style="height: 100%; object-fit: contain;">
-                    <!-- <img src="https://img.buzzfeed.com/buzzfeed-static/static/2014-01/campaign_images/webdr06/7/14/50-reasons-why-nicolas-cage-is-the-greatest-human-1-5571-1389124720-1_big.jpg" /> -->
-                </object>
-            </div>
-        </div>
-    </footer>
+    <div id="footer"> </div>
+    <script type="text/javascript"> 
+        jQuery(document).ready(
+            function(){
+                jQuery("#header").load("header.html");
+                jQuery("#footer").load("footer.html");
+            }
+        );
+    </script>
 </body>
 </html>
-
-
-
-
-
-
-

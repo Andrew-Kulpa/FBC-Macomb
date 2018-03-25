@@ -1,0 +1,98 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0.125;
+    background-color: #25274D;
+    color: #AAABB8;
+    padding: 0.5% 0;
+    font-size: 1.2em;
+    z-index:1;
+}
+.navbar-brand {
+    float: left;
+    min-height: 55px;
+    height: 55px;
+    width: 80%;
+    padding: 0px 15px 0px 0px;
+}
+
+.navbar-inverse .navbar-nav .active a, .navbar-inverse .navbar-nav .active a:focus,
+.navbar-inverse .navbar-nav .active a:hover{
+    color: #2E9CCA;
+    background-color: #25274D;
+}
+.carousel{
+    z-index: 0;
+    /* height: 66vh; */
+    /* object-fit: cover; */
+}
+.carousel-inner {
+    width: 100%;
+    min-height: 25% !important;
+    height: 25% !important;
+}
+.navbar-inverse .navbar-nav li a {
+    color: #AAABB8;
+}
+.navbar-inverse .navbar-nav li a:hover {
+    color: #2E9CCA;
+}
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    text-transform: capitalize;
+}
+.carousel .item {
+    height: 400px;
+    background-color:#555;
+}
+.carousel img { width: 100%;  min-height: 400px;}
+.btn {
+    font-size: 18px;
+    color: #AAABB8;
+    padding: 12px 22px;
+    background: #25274D;
+}
+.container {
+    margin: 4% auto;
+}
+@media (max-width: 900px) {
+    .fab {
+        font-size: 20px;
+        padding: 10px;
+    }
+}
+@media (max-width: 600px) {
+    .carousel-caption {
+        display: none;
+    }
+    #icon {
+        max-width: 150px;
+    }
+    h2 {
+        font-size: 1.9em;
+    }
+}
+#icon {
+    max-width: 200px;
+    margin: 1% auto;
+}
+footer {
+    width: 100%;
+    background-color: #25274D;
+    padding: 3%;
+    color: #AAABB8;
+}
+.social {
+    /* padding: 20px;
+    font-size: 30px; */
+    color: #AAABB8 !important;
+}
+.social:hover {
+    color: #2E9CCA !important;
+    text-decoration: none;
+}
+.icon {
+    width:33%;
+    min-height: 25% !important;
+    height: 25% !important;
+}
