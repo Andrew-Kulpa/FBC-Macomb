@@ -1,0 +1,18 @@
+// Place your settings in this file to overwrite default and user settings.
+{
+    "todohighlight.keywords": [ "BROKEN:", "BUG:",{  
+            "text": "REVIEW:", // custom text to be highlighted
+            "color": "#ffffff", // the text color, any css color identifier is valid
+            "backgroundColor": "#007777", // the text background color
+            "overviewRulerColor": "grey" //the color of the ruler mark on the scroll bar. use rgba() and de
+        }  ],
+    "editor.minimap.enabled": false,
+    "ruby.lint": {
+        "reek": false,
+        "rubocop": true,
+        "ruby": true, //Runs ruby -wc
+        "fasterer": true,
+        "debride": false,
+        "ruby-lint": false
+    }
+}
